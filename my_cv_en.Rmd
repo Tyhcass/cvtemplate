@@ -1,0 +1,180 @@
+---
+output: 
+  rticles::ctex:
+  ## pdf_document:
+    keep_tex: yes
+    template: svm-latex-cv.tex
+geometry: margin=1in
+
+chinese: TRUE
+
+title: "CV"
+author: Cassandra Yuehong Tai
+
+address: "Department of Political Science 313 Schaeffer Hall Iowa City, Iowa 52242-1409"
+fontawesome: yes
+email: yuehong-tai@uiowa.edu
+github: Tyhcass
+web: 
+updated: false
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 10.5pt
+linkcolor: blue
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+library(RefManageR)
+ajps_mimic <- RefManageR:::MakeBibLaTeX()
+with(ajps_mimic,{
+  ajps_mimic$fmtJournal <- function(s){
+                                if (length(s$journaltitle)) {
+                                    res <- emph(cleanupLatex(s$journaltitle))
+                                    if (length(s$journalsubtitle))
+                                        res <- paste(addPeriod(res), emph(cleanupLatex(s$journalsubtitle)))
+                                    return(res)
+                                }
+                                else if (!is.null(s$journal)) {
+                                    emph(cleanupLatex(s$journal))
+                                }
+     }
+     
+     ajps_mimic$fmtURL <- function (paper) {
+        if (length(paper[["url"]])) {
+            res <- paper$url
+            res <- switch(docstyle, html = paste0("\\url{", 
+                res, "}"), markdown = paste0("[", res, "](", 
+                res, ")"), paste0("\\url{", res, "}"))
+            if (length(paper$urldate)) {
+                fDate <- try(ProcessDate(paper$urldate, NULL), TRUE)
+                if (!is.null(fDate) && !inherits(fDate, "try-error")) 
+                    res <- paste0(res, " (visited on ", DateFormatter(fDate, 
+                      TRUE), ")")
+            }
+            addPeriod(res)
+        }
+        else if (length(paper$urldate)) {
+            fDate <- try(ProcessDate(paper$urldate, NULL), TRUE)
+            if (!is.null(fDate) && !inherits(fDate, "try-error")) 
+                paste0("(Visited on ", DateFormatter(fDate, TRUE), 
+                    ").")
+        }
+     }
+     
+     ajps_mimic$fmtLanguage <- function(lang) {
+    if (length(lang) && tolower(lang) != "english") 
+        paste0("[", sub("\\b(\\w)", "\\U\\1", lang, perl = TRUE, 
+            useBytes = TRUE),"]")
+       }
+     
+     ajps_mimic$formatArticle <- function (paper) {
+    collapse(c(fmtPrefix(paper), fmtBAuthor(paper), fmtJTitle(paper$title), fmtLanguage(paper$language), 
+        fmtAddOn(paper$titleaddon),
+        fmtTranslator(paper), fmtCommentator(paper$commentator), 
+        fmtAnnotator(paper$annotator), fmtVersion(paper$version), 
+        sentenceP(paste0(c(paste0(c(fmtJournal(paper), fmtSeries(paper$series)), 
+            collapse = ""), fmtVolume(paper$volume, paper$number), 
+            fmtJournDate(paper)), collapse = " "), fmtBTitle(paper$issuetitle, 
+            paper$issuesubtitle), fmtEditor(paper, suffix = NULL, 
+            prefix = ". "), fmtNote(paper$note, prefix = ". ", 
+            suffix = NULL), pgs = fmtPages(paper$pages, paper$pagination), 
+            sep = ""),fmtURL(paper), fmtAddendum(paper$addendum), 
+        fmtPubstate(paper$pubstate)))
+     }
+     
+     ajps_mimic$formatArticle <- function (paper) {
+    collapse(c(fmtPrefix(paper), fmtBAuthor(paper), fmtJTitle(paper$title), fmtLanguage(paper$language), 
+        fmtAddOn(paper$titleaddon),
+        fmtTranslator(paper), fmtCommentator(paper$commentator), 
+        fmtAnnotator(paper$annotator), fmtVersion(paper$version), 
+        sentenceP(paste0(c(paste0(c(fmtJournal(paper), fmtSeries(paper$series)), 
+            collapse = ""), fmtVolume(paper$volume, paper$number), 
+            fmtJournDate(paper)), collapse = " "), fmtBTitle(paper$issuetitle, 
+            paper$issuesubtitle), fmtEditor(paper, suffix = NULL, 
+            prefix = ". "), fmtNote(paper$note, prefix = ". ", 
+            suffix = NULL), pgs = fmtPages(paper$pages, paper$pagination), 
+            sep = ""),fmtURL(paper), fmtAddendum(paper$addendum), 
+        fmtPubstate(paper$pubstate)))
+     }
+     
+     ajps_mimic$formatUnpublished <- function (paper) {
+        collapse(c(fmtPrefix(paper), fmtBAuthor(paper), fmtIBTitle(paper$title, 
+            paper$subtitle, FALSE), fmtAddOn(paper$titleaddon), fmtLanguage(paper$language), 
+            fmtHowPublished(paper$howpublished), fmtNote(paper$note), 
+            sentence(fmtPublisher(NULL, paper$location, paper$address), sep = ""), fmtDOI(paper$doi), 
+            fmtURL(paper), fmtAddendum(paper$addendum), fmtPubstate(paper$pubstate)))
+     }
+     
+     ajps_mimic$formatMisc <- function (paper) {
+    collapse(c(fmtPrefix(paper), fmtBAuthor(paper), fmtIBTitle(paper$title, 
+            paper$subtitle, FALSE), fmtAddOn(paper$titleaddon), fmtLanguage(paper$language), 
+        fmtEditor(paper, !length(paper$author)), fmtHowPublished(paper$howpublished), 
+        addPeriod(fmtType(paper$type)), fmtVersion(paper$version), 
+        fmtNote(paper$note), sentence(fmtPublisher(paper$organization, 
+            paper$location, paper$address), fmtDate(attr(paper, 
+            "dateobj")), sep = ""), fmtDOI(paper$doi), fmtEprint(paper), 
+        fmtURL(paper), fmtAddendum(paper$addendum), fmtPubstate(paper$pubstate)))
+}
+})
+
+
+tools::bibstyle("ajps_mimic", ajps_mimic)
+
+bib <- ReadBib("publication.bib", check = FALSE)
+BibOptions(check.entries = FALSE, 
+           first.inits = FALSE,
+           bib.style = "ajps_mimic",
+           style = "latex",
+           max.names = 4,
+           dashed = FALSE,
+           sorting = "ydnt")
+```
+
+
+# Education
+## Degree
+* Ph.D. in Political Science, The University of Iowa, U.S.A.\hfill Present
+* MSc in Political Science, Nanyang Technological University, Singapore\hfill 2008-06
+* LL.B. in Diplomacy, Renmin University of China, China\hfill 2007-06
+
+## Additional Training
+* Advanced Multilevel Models and Causal Inference for the Social Sciences, The University of Michigan (ICPSR), U.S.A \hfill 2018-07/08
+
+# Professional Positions
+
+# Research Interests
+* *Comparative Politics*: Internet politics, political communication, authoritarian responsiveness.
+* *Political Methodology*: Spatial analysis, factor analysis.
+* *American Politics*: Public opinion, social media.
+
+# Publications
+## Peer-Reviewed Journal Articles
+```{r echo = FALSE, results = "asis", warning=FALSE}
+#bib[group = "published"]
+```
+
+## Under Review
+
+```{r echo = FALSE, results = "asis"}
+#bib[group = "underreview"]
+```
+
+## Working Projects
+
+
+# Conferences
+
+
+# Teaching Experience
+
+# Grants
+
+# Professional Affiliation
+* Member of Midwest Political Science Association.
+
+
+# Skills
+* Analysis & Programming: R, Stata, Python.
+* Application:  \LaTeX, Markdown, Git(GitHub).
+* Language: English, Chinese (Mandarin)

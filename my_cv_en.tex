@@ -1,0 +1,217 @@
+\documentclass[10.5pt,]{article}
+
+\usepackage{multicol} % for multiple columns
+
+
+
+\usepackage[sc, osf]{mathpazo}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+\ifxetex
+\usepackage{xltxtra,xunicode} %originally, \usepackage{mathspec}. This change is to produce Chinese
+\else
+\usepackage{fontspec}
+\fi
+\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+	\usepackage{microtype}
+	\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+
+
+
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% Now begins the stuff that I added.
+% ----------------------------------
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\large\bf}
+\subsectionfont{\rmfamily\mdseries\normalsize\itshape}
+
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+	\begin{list}{}{
+			\setlength{\leftmargin}{1.5em}
+		}
+	}{
+	\end{list}
+}
+
+
+% Make parskips rather than indent with lists.
+\usepackage{parskip}
+\usepackage{titlesec}
+
+\usepackage{ctex}
+% Siyuan Font
+%\setCJKmainfont[BoldFont = Noto Sans CJK SC]{Noto Serif CJK SC}
+%\setCJKsansfont{Noto Sans CJK SC}
+%\setCJKfamilyfont{zhsong}{Noto Serif CJK SC}
+%\setCJKfamilyfont{zhhei}{Noto Sans CJK SC}
+%\setCJKfamilyfont{zhkai}{simkai.ttf}
+
+% less space for the Chinese format
+\titlespacing\section{0pt}{1pt plus 4pt minus 2pt}{1pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{5pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+
+% Use fontawesome. Note: you'll need TeXLive 2015. Update.
+\usepackage{fontawesome}
+\newfontfamily\FA{FontAwesome.otf} % Explicitly provide .otf
+
+% Fancyhdr, as I tend to do with these personal documents.
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{
+	\cfoot{\scriptsize  Cassandra Yuehong Tai - CV }}
+\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+% Always load hyperref last.
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+
+\hypersetup{unicode=true,
+		pdftitle={Cassandra Yuehong Tai:  CV (Curriculum Vitae)},
+			pdfauthor={Cassandra Yuehong Tai},
+			colorlinks=true,
+	linkcolor=blue,
+	citecolor=Blue,
+	urlcolor=blue,
+	breaklinks=true, bookmarks=true}
+\urlstyle{same}  % don't use monospace font for urls
+
+% try to fit picture
+
+
+\begin{document}
+	
+	
+	\centerline{\huge \bf Cassandra Yuehong Tai}
+	
+	
+	
+	\vspace{2 mm}
+	
+	\hrule
+	
+	\vspace{2 mm}
+	
+	
+	\moveleft.5\hoffset\centerline{Department of Political Science 313 Schaeffer Hall Iowa City, Iowa
+52242-1409}
+	\moveleft.5\hoffset\centerline{ {\FA\faEnvelope} \hspace{1 mm} \href{mailto:}{\tt \href{mailto:yuehong-tai@uiowa.edu}{\nolinkurl{yuehong-tai@uiowa.edu}}} \hspace{1 mm}  {\FA\faGithub} \hspace{1 mm} \href{http://github.com/Tyhcass}{\tt Tyhcass} \hspace{1 mm}     }
+	
+	\vspace{2 mm}
+	
+	\hrule
+	
+		
+	\section{Education}\label{education}
+
+\subsection{Degree}\label{degree}
+
+\begin{itemize}
+\tightlist
+\item
+  Ph.D.~in Political Science, The University of Iowa,
+  U.S.A.\hfill Present
+\item
+  MSc in Political Science, Nanyang Technological University,
+  Singapore\hfill 2008-06
+\item
+  LL.B. in Diplomacy, Renmin University of China, China\hfill 2007-06
+\end{itemize}
+
+\subsection{Additional Training}\label{additional-training}
+
+\begin{itemize}
+\tightlist
+\item
+  Advanced Multilevel Models and Causal Inference for the Social
+  Sciences, The University of Michigan (ICPSR), U.S.A \hfill 2018-07/08
+\end{itemize}
+
+\section{Professional Positions}\label{professional-positions}
+
+\section{Research Interests}\label{research-interests}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Comparative Politics}: Internet politics, political
+  communication, authoritarian responsiveness.
+\item
+  \emph{Political Methodology}: Spatial analysis, factor analysis.
+\item
+  \emph{American Politics}: Public opinion, social media.
+\end{itemize}
+
+\section{Publications}\label{publications}
+
+\subsection{Peer-Reviewed Journal
+Articles}\label{peer-reviewed-journal-articles}
+
+\subsection{Software}\label{software}
+
+\subsection{Under Review}\label{under-review}
+
+\subsection{Working Projects}\label{working-projects}
+
+\section{Conferences}\label{conferences}
+
+\section{Teaching Experience}\label{teaching-experience}
+
+\section{Grants}\label{grants}
+
+\section{Professional Affiliation}\label{professional-affiliation}
+
+\begin{itemize}
+\tightlist
+\item
+  Member of Midwest Political Science Association.
+\end{itemize}
+
+\section{Skills}\label{skills}
+
+\begin{itemize}
+\tightlist
+\item
+  Analysis \& Programming: R, Stata, Python.
+\item
+  Application: \LaTeX, Markdown, Git(GitHub).
+\item
+  Language: English, Chinese (Mandarin)
+\end{itemize}
+	
+			\end{document}
