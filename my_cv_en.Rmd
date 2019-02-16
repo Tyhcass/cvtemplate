@@ -134,7 +134,7 @@ BibOptions(check.entries = FALSE,
 
 # Education
 ## Degree
-* Ph.D. in Political Science, The University of Iowa, U.S.A.\hfill Present
+* Ph.D. Program in Political Science, The University of Iowa, U.S.A.\hfill 2017-Present
 * MSc in Political Science, Nanyang Technological University, Singapore\hfill 2008-06
 * LL.B. in Diplomacy, Renmin University of China, China\hfill 2007-06
 
@@ -144,27 +144,18 @@ BibOptions(check.entries = FALSE,
 # Professional Positions
 
 # Research Interests
-* *Comparative Politics*: Internet politics, political communication, authoritarian responsiveness.
-* *Political Methodology*: Spatial analysis, factor analysis.
+* *Comparative Politics*: Internet politics, comparative public opinion, political communication, authoritarian responsiveness.
+* *Political Methodology*: Latent variable measurement, spatial analysis, text analysis.
 * *American Politics*: Public opinion, social media.
 
 # Publications
 ## Peer-Reviewed Journal Articles
-```{r echo = FALSE, results = "asis", warning=FALSE}
-#bib[group = "published"]
-```
-
-## Under Review
 
 ```{r echo = FALSE, results = "asis"}
 #bib[group = "underreview"]
 ```
 
 ## Working Projects
-
-
-# Conferences
-
 
 # Teaching Experience
 
@@ -174,7 +165,3 @@ BibOptions(check.entries = FALSE,
 * Member of Midwest Political Science Association.
 
 
-# Skills
-* Analysis & Programming: R, Stata, Python.
-* Application:  \LaTeX, Markdown, Git(GitHub).
-* Language: English, Chinese (Mandarin)
