@@ -1,0 +1,172 @@
+---
+output: 
+  rticles::ctex:
+  ## pdf_document:
+    keep_tex: yes
+    template: svm-latex-cv.tex
+geometry: margin=1in
+
+chinese: TRUE
+
+title: "CV"
+author: Yuehong Cassandra Tai
+
+address: "Department of Political Science 313 Schaeffer Hall Iowa City, Iowa 52242-1409"
+fontawesome: yes
+email: yuehong-tai@uiowa.edu
+github: Tyhcass
+web: cassyuehtai.netlify.app
+updated: false
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 10.5pt
+linkcolor: blue
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+
+```
+
+#  
+# EDUCATION 
+ * __Ph.D.__ Program in Political Science, University of Iowa, U.S.A. \hfill 2017-Current
+   - *Fields*: Comparative Politics, Political Methodology, American Politics
+   - *Dissertation Title*: Public Trust and Policy Outcomes in Shared-interest Policy and Conflicting-interest Policy
+   - *Committee*: Frederick Solt (chair), William Reisinger, Caroline Tolbert, Julie Pacheco, and Elizabeth Suhay (American University)
+*  __Dissertation Abstract__:
+    - In my dissertation, I seek to answer the question, "What influences public compliance with public policy?" More specifically, I ask, "Why do people not comply with a shared-interest policy which benefits both government and public generally, like public health policy? Why do people comply with a conflicting-interest policy in which there is a fundamental tension between the state and the society, like taxation?" I propose taking comparative trust and policy attributes to understand that different types of trust have reinforcing or counterbalancing effects on public compliance, and these effects vary across policy attributes. Drawing from 250 different survey datasets, I employ a sophisticated Bayesian IRT model, to measure four types of trust (trust in representative institution, trust in implementing institution, generalized trust, and particularized trust) and create a comprehensive trust data set covering 151 countries over 47 years, from 1973 to 2020. To identify the causal effects in a panel data context, I use causal graphs and run a dynamic fixed-effects model with system generalized method of moments (GMM) estimator. I find that trust in implementing institutions has the most considerable effect on public compliance with vaccination but then the importance of political trust is at least matched by that of social trust on public compliance with taxation. My dissertation concludes that to break the vicious circle of public distrust and deadlock of policy reform, policymakers and policy implementors should rebuild public trust in preparing for governance challenges like future pandemics, infodemics, and climate change.
+ 
+* __MSc__ in Political Science, Nanyang Technological University, Singapore \hfill 2008
+* __LL.B.__ in Diplomacy, Renmin University of China, China \hfill 2007
+
+
+<p>&nbsp;</p>
+# RESEARCH INTERESTS
+* __Comparative Politics__: 
+  - Comparative Public Opinion, Trust, Chinese Politics, Political Communication.
+* __Political Methodology__: 
+  - Bayesian Statistics, Latent Variable Measurement, Machine Learning for Non-traditional Data, Duration and Spatial Analysis.
+
+
+<p>&nbsp;</p>
+# PUBLICATION
+* __Revised & Resubmitted__
+  - “Democracy, Public Support, and Measurement Uncertainty” (with Yue Hu and Frederick Solt) at *American Political Science Review*
+
+* __Under Review__
+  - “Judge’s Gender and Oral Language Skills: An Empirical Analysis of Chinese Courtroom Audio” (with Dong Erico Yu)
+
+* __Working Paper__
+  - “When does Crisis Severity Speed Response? Policy Burden and COVID-19 Policy Adoption in China” (with Jielu Yao and Elise Pizzi)
+  - "Maintaining authoritarian resilience during the public health crisis: An analysis of Chinese state media’s social media posts during the COVID-19 outbreak” (with Ge Zhu, Rachel Young, Li Chen)
+
+  - “Policy Orientation and Diffusion in Responsive Governance: Responses to the Chinese 2018 Vaccine Scandal”
+  - “Gubernatorial Executive Orders vs Legislation: Determinants of States' Action Choice during COVID19 Pandemic”
+  - "Who is Leading Public Opinion on Social Media in China"
+
+<p>&nbsp;</p>
+# CONFERENCE PRESENTATIONS 
+* “When does Crisis Severity Speed Response? COVID-19 Policy Adoption in China” (with Jielu Yao and Elise Pizzi), American Political Science Association Conference, forthcoming   \hfill Oct 2021
+* “Trial "Better than Men" :Gender Variation in Presentation Styles in Courts of China” (with Dong Erico Yu), Midwest Political Science Association Annual Meeting     \hfill  Apr 2021
+* “Democracy, Public Support, and Measurement Uncertainty” (with Yue Hu and Frederick Solt), Joint Quantitative Political Science Conference for Asia and Australasia    \hfill  Jan 2021
+* “Policy Orientation and Diffusion in Responsive Governance: Responses to the Chinese 2018 Vaccine Scandal”,  Association of Chinese Political Studies Annual Meeting              \hfill Nov 2020
+* “Who is Influencing Public Opinion during a Public Health Crisis on Social Media in China?”,  Southern Political Science Association Conference       \hfill  Jan 2020
+
+<p>&nbsp;</p>
+# TEACHING EXPERIENCE
+*  __Guest Lecturer, University of Iowa__
+- Analyzing Political Data \hfill Spring 2021
+- National Security Policy  \hfill March 2020 
+
+*  __Teaching Assistant__
+* *ICPSR Summer Program, University of Michigan* 
+  - Bayesian Modeling for the Social Sciences II:Advanced Topics \hfill Summer 2021
+* *University of Iowa* 
+  - Intro to Political Behavior   \hfill Fall 2019
+    - Conducted weekly discussion sections and offered guideliens and suggestions for each of group projects.
+  - Intro to Comparative Politics  \hfill Fall 2018, Spring 2019
+    - Prepared supporting materials for sections, delivered brief lectures in section, and crafted weekly worksheets.
+  - The Presidency    \hfill Fall 2017
+    - Graded papers.
+  - (Online Course) Intro to Comparative Politics  \hfill Summer 2018,2019
+    - Provided students with detailed feedback on their assignments and graded papers. 
+
+* __Invited Talks__
+- Intro to Python: Web Scraping, Social Media Data Wrangling and Analysis, East China Normal University, Shanghai  \hfill Dec 2020 
+
+<p>&nbsp;</p>
+# APPOINTMENTS
+* Statistical Consultant, Project Haystack, GoDaddy.com    \hfill Spring 2020 - Summer 2021
+  - Collaboration with Professor Caroline Tolbert (University of Iowa) and GoDaddy.com to measure the density of domain name websites (at the CBSA, county, and zip code level) using a dataset of 26 million GoDaddy customers in the US.
+* Project Member, Iowa Hawkeye Poll, University of Iowa                   \hfill Fall 2019
+  - Aided in the creation and analysis of a survey designed to measure Iowan’s political preferences in U.S 2020 presidential election.
+  
+* Tweets on Immigration Project,  University of Iowa \hfill Summer 2019
+  - Work with Professor Bryce Dietrich on analyzing how Trump's tweets changed the way Americans talk about immigration on Twitter.
+* Standardized World Income Inequality Database Project,University of Iowa,  \hfill Summer 2019
+  - Assist Professor Frederick Solt with inequality data collection.
+* Comparative Political Trust Project, University of Iowa           \hfill Spring 2018
+  - Work with Professor Wenfang Tang to combine global survey datasets and conducted empirical analysis.
+
+  
+<p>&nbsp;</p>
+# AWARDS & HONORS
+* Graduate Post-Comp Research Fellowship ($10,500), University of Iowa \hfill Fall 2021
+* Graduate College Summer Fellowship ($5,000), University of Iowa  \hfill Summer 2021
+* Department Research Grant ($1,000), University of Iowa  \hfill Spring 2020
+* GSS Travel Funds ($1,000), University of Iowa  \hfill Spring 2020
+* Department Research Grant ($300), University of Iowa   \hfill Spring 2019 
+* Center for Asian and Pacific Studies Graduate Travel Grant ($500), University of Iowa \hfill Fall 2019
+* Department Summer Training Grant ($2400), University of Iowa \hfill Summer 2018
+
+
+<p>&nbsp;</p>
+#  DISCIPLINE AND CAMPUS SERVICE
+
+* __iPeer Mentor__: *iPeer Mentorship Program*.  International Student and Scholar Services, University of Iowa  \hfill  2021
+
+* __Co-Host__: *2020 Iowa Caucus Conference*. Department of Political Science, University of Iowa  Conference Details: https://clas.uiowa.edu/polisci/Shambaugh-2020Caucus  \hfill  Feb 2020
+
+* __Discussant__: *Government Transparency in China*. Midwest Political Science Association Annual Meeting     \hfill  Apr 2021
+
+* __Session Chair and Discussant__ for *Time and Space*. Political Science Methodology Conference for Asia and Australasia     \hfill  Jan 2021
+
+* __Session Chair__ for *Understanding Polarization*, *Covid & Computation* and *Social Media & Politics*. Politics and Computational Social Science and Political Networks    \hfill  Aug 2020
+
+* __Discussant__: *Chinese Politics*. Southern Political Science Association Conference           \hfill  Jan 2020
+
+
+<p>&nbsp;</p>
+# PROFESSIONAL AFFILIATIONS
+* Member of American Political Science Association
+* Member of Midwest Political Science Association
+* Member of Association of Chinese Political Science
+* Member of Southern Political Science Association
+* The Society for Political Methodology
+
+<p>&nbsp;</p>
+# ADDITIONAL TRAINING AND SKILLS
+* __Certificate__
+  - Certificate in Informatics, The University of Iowa, U.S.A. \hfill 2021
+    - Programming in Python, Java, and SQL.
+  - ICPSR, University of Michigan, Ann Arbor, MI  \hfill 2018
+    - Causal Inference for the Social Sciences & Multilevel Models II: Advanced Topics.
+    
+<p>&nbsp;</p>
+* __Skills__
+  - Analysis & Programming: R, Python, Stan, JAGS, Stata, SQL, Mplus, Java.
+  - Application:  \LaTeX, Markdown, Git(GitHub).
+  - Language: English, Chinese (Mandarin)
+
+<p>&nbsp;</p>
+# REFERENCES
+* __Frederick Solt__, __Ph.D__ \hfill  frederick-solt@uiowa.edu; (319)335-2340
+* Associate Professor, University of Iowa
+* __William M. Reisinger__, __Ph.D__ \hfill  william-reisinger@uiowa.edu; (319)335-2351
+* Professor, University of Iowa
+* __Caroline Tolbert__, __Ph.D__ \hfill  caroline-tolbert@uiowa.edu; (319)335-2340
+* Professor, University of Iowa
+* __Elizabeth Menninga__, __Ph.D__ \hfill  elizabeth-menninga@uiowa.edu;(319)335-3835
+* Assistant Professor, University of Iowa
+

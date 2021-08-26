@@ -1,0 +1,607 @@
+\documentclass[10.5pt,]{article}
+
+\usepackage{multicol} % for multiple columns
+
+
+
+\usepackage[sc, osf]{mathpazo}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+\ifxetex
+\usepackage{xltxtra,xunicode} %originally, \usepackage{mathspec}. This change is to produce Chinese
+\else
+\usepackage{fontspec}
+\fi
+\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+	\usepackage{microtype}
+	\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+
+
+
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% Now begins the stuff that I added.
+% ----------------------------------
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\large\bf}
+\subsectionfont{\rmfamily\mdseries\normalsize\itshape}
+
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+	\begin{list}{}{
+			\setlength{\leftmargin}{1.5em}
+		}
+	}{
+	\end{list}
+}
+
+
+% Make parskips rather than indent with lists.
+\usepackage{parskip}
+\usepackage{titlesec}
+
+\usepackage{ctex}
+% Siyuan Font
+%\setCJKmainfont[BoldFont = Noto Sans CJK SC]{Noto Serif CJK SC}
+%\setCJKsansfont{Noto Sans CJK SC}
+%\setCJKfamilyfont{zhsong}{Noto Serif CJK SC}
+%\setCJKfamilyfont{zhhei}{Noto Sans CJK SC}
+%\setCJKfamilyfont{zhkai}{simkai.ttf}
+
+% less space for the Chinese format
+\titlespacing\section{0pt}{1pt plus 4pt minus 2pt}{1pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{5pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+
+% Use fontawesome. Note: you'll need TeXLive 2015. Update.
+\usepackage{fontawesome}
+\newfontfamily\FA{FontAwesome.otf} % Explicitly provide .otf
+
+% Fancyhdr, as I tend to do with these personal documents.
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{
+	\cfoot{\scriptsize  Yuehong Cassandra Tai - CV }}
+\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+% Always load hyperref last.
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+
+\hypersetup{unicode=true,
+		pdftitle={Yuehong Cassandra Tai:  CV (Curriculum Vitae)},
+			pdfauthor={Yuehong Cassandra Tai},
+			colorlinks=true,
+	linkcolor=blue,
+	citecolor=Blue,
+	urlcolor=blue,
+	breaklinks=true, bookmarks=true}
+\urlstyle{same}  % don't use monospace font for urls
+
+% try to fit picture
+
+
+\begin{document}
+	
+	
+	\centerline{\huge \bf Yuehong Cassandra Tai}
+	
+	
+	
+	\vspace{2 mm}
+	
+	\hrule
+	
+	\vspace{2 mm}
+	
+	
+	\moveleft.5\hoffset\centerline{Department of Political Science 313
+Schaeffer Hall Iowa City, Iowa 52242-1409}
+	\moveleft.5\hoffset\centerline{ {\FA\faEnvelope} \hspace{1 mm} \href{mailto:}{\tt \href{mailto:yuehong-tai@uiowa.edu}{\nolinkurl{yuehong-tai@uiowa.edu}}} \hspace{1 mm}  {\FA\faGithub} \hspace{1 mm} \href{http://github.com/Tyhcass}{\tt Tyhcass} \hspace{1 mm}    {\FA\faGlobe} \hspace{1 mm} \href{http://cassyuehtai.netlify.app}{\tt cassyuehtai.netlify.app}   }
+	
+	\vspace{2 mm}
+	
+	\hrule
+	
+		
+	\hypertarget{section}{%
+ \section{}\label{section}}
+
+ \hypertarget{education}{%
+ \section{EDUCATION}\label{education}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   \textbf{Ph.D.} Program in Political Science, University of Iowa,
+   U.S.A. \hfill 2017-Current
+
+   \begin{itemize}
+   \tightlist
+   \item
+     \emph{Fields}: Comparative Politics, Political Methodology,
+     American Politics
+   \item
+     \emph{Dissertation Title}: Public Trust and Policy Outcomes in
+     Shared-interest Policy and Conflicting-interest Policy
+   \item
+     \emph{Committee}: Frederick Solt (chair), William Reisinger,
+     Caroline Tolbert, Julie Pacheco, and Elizabeth Suhay (American
+     University)
+   \end{itemize}
+ \item
+   \textbf{Dissertation Abstract}:
+
+   \begin{itemize}
+   \tightlist
+   \item
+     In my dissertation, I seek to answer the question, ``What
+     influences public compliance with public policy?'' More
+     specifically, I ask, ``Why do people not comply with a
+     shared-interest policy which benefits both government and public
+     generally, like public health policy? Why do people comply with a
+     conflicting-interest policy in which there is a fundamental tension
+     between the state and the society, like taxation?'' I propose
+     taking comparative trust and policy attributes to understand that
+     different types of trust have reinforcing or counterbalancing
+     effects on public compliance, and these effects vary across policy
+     attributes. Drawing from 250 different survey datasets, I employ a
+     sophisticated Bayesian IRT model, to measure four types of trust
+     (trust in representative institution, trust in implementing
+     institution, generalized trust, and particularized trust) and
+     create a comprehensive trust data set covering 151 countries over
+     47 years, from 1973 to 2020. To identify the causal effects in a
+     panel data context, I use causal graphs and run a dynamic
+     fixed-effects model with system generalized method of moments (GMM)
+     estimator. I find that trust in implementing institutions has the
+     most considerable effect on public compliance with vaccination but
+     then the importance of political trust is at least matched by that
+     of social trust on public compliance with taxation. My dissertation
+     concludes that to break the vicious circle of public distrust and
+     deadlock of policy reform, policymakers and policy implementors
+     should rebuild public trust in preparing for governance challenges
+     like future pandemics, infodemics, and climate change.
+   \end{itemize}
+ \item
+   \textbf{MSc} in Political Science, Nanyang Technological University,
+   Singapore \hfill 2008
+ \item
+   \textbf{LL.B.} in Diplomacy, Renmin University of China, China
+   \hfill 2007
+ \end{itemize}
+
+ ~
+
+ \hypertarget{research-interests}{%
+ \section{RESEARCH INTERESTS}\label{research-interests}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   \textbf{Comparative Politics}:
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Comparative Public Opinion, Trust, Chinese Politics, Political
+     Communication.
+   \end{itemize}
+ \item
+   \textbf{Political Methodology}:
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Bayesian Statistics, Latent Variable Measurement, Machine Learning
+     for Non-traditional Data, Duration and Spatial Analysis.
+   \end{itemize}
+ \end{itemize}
+
+ ~
+
+ \hypertarget{publication}{%
+ \section{PUBLICATION}\label{publication}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   \textbf{Revised \& Resubmitted}
+
+   \begin{itemize}
+   \tightlist
+   \item
+     ``Democracy, Public Support, and Measurement Uncertainty'' (with
+     Yue Hu and Frederick Solt) at \emph{American Political Science
+     Review}
+   \end{itemize}
+ \item
+   \textbf{Under Review}
+
+   \begin{itemize}
+   \tightlist
+   \item
+     ``Judge's Gender and Oral Language Skills: An Empirical Analysis of
+     Chinese Courtroom Audio'' (with Dong Erico Yu)
+   \end{itemize}
+ \item
+   \textbf{Working Paper}
+
+   \begin{itemize}
+   \item
+     ``When does Crisis Severity Speed Response? Policy Burden and
+     COVID-19 Policy Adoption in China'' (with Jielu Yao and Elise
+     Pizzi)
+   \item
+     ``Maintaining authoritarian resilience during the public health
+     crisis: An analysis of Chinese state media's social media posts
+     during the COVID-19 outbreak'' (with Ge Zhu, Rachel Young, Li Chen)
+   \item
+     ``Policy Orientation and Diffusion in Responsive Governance:
+     Responses to the Chinese 2018 Vaccine Scandal''
+   \item
+     ``Gubernatorial Executive Orders vs Legislation: Determinants of
+     States' Action Choice during COVID19 Pandemic''
+   \item
+     ``Who is Leading Public Opinion on Social Media in China''
+   \end{itemize}
+ \end{itemize}
+
+ ~
+
+ \hypertarget{conference-presentations}{%
+ \section{CONFERENCE PRESENTATIONS}\label{conference-presentations}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   ``When does Crisis Severity Speed Response? COVID-19 Policy Adoption
+   in China'' (with Jielu Yao and Elise Pizzi), American Political
+   Science Association Conference, forthcoming \hfill Oct 2021
+ \item
+   ``Trial''Better than Men'' :Gender Variation in Presentation Styles
+   in Courts of China'' (with Dong Erico Yu), Midwest Political Science
+   Association Annual Meeting \hfill  Apr 2021
+ \item
+   ``Democracy, Public Support, and Measurement Uncertainty'' (with Yue
+   Hu and Frederick Solt), Joint Quantitative Political Science
+   Conference for Asia and Australasia \hfill  Jan 2021
+ \item
+   ``Policy Orientation and Diffusion in Responsive Governance:
+   Responses to the Chinese 2018 Vaccine Scandal'', Association of
+   Chinese Political Studies Annual Meeting \hfill Nov 2020
+ \item
+   ``Who is Influencing Public Opinion during a Public Health Crisis on
+   Social Media in China?'', Southern Political Science Association
+   Conference \hfill  Jan 2020
+ \end{itemize}
+
+ ~
+
+ \hypertarget{teaching-experience}{%
+ \section{TEACHING EXPERIENCE}\label{teaching-experience}}
+
+ \begin{itemize}
+ \item
+   \textbf{Guest Lecturer, University of Iowa}
+ \item
+   Analyzing Political Data \hfill Spring 2021
+ \item
+   National Security Policy \hfill March 2020
+ \item
+   \textbf{Teaching Assistant}
+ \item
+   \emph{ICPSR Summer Program, University of Michigan}
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Bayesian Modeling for the Social Sciences II:Advanced Topics
+     \hfill Summer 2021
+   \end{itemize}
+ \item
+   \emph{University of Iowa}
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Intro to Political Behavior \hfill Fall 2019
+
+     \begin{itemize}
+     \tightlist
+     \item
+       Conducted weekly discussion sections and offered guideliens and
+       suggestions for each of group projects.
+     \end{itemize}
+   \item
+     Intro to Comparative Politics \hfill Fall 2018, Spring 2019
+
+     \begin{itemize}
+     \tightlist
+     \item
+       Prepared supporting materials for sections, delivered brief
+       lectures in section, and crafted weekly worksheets.
+     \end{itemize}
+   \item
+     The Presidency \hfill Fall 2017
+
+     \begin{itemize}
+     \tightlist
+     \item
+       Graded papers.
+     \end{itemize}
+   \item
+     (Online Course) Intro to Comparative Politics \hfill Summer
+     2018,2019
+
+     \begin{itemize}
+     \tightlist
+     \item
+       Provided students with detailed feedback on their assignments and
+       graded papers.
+     \end{itemize}
+   \end{itemize}
+ \item
+   \textbf{Invited Talks}
+ \item
+   Intro to Python: Web Scraping, Social Media Data Wrangling and
+   Analysis, East China Normal University, Shanghai \hfill Dec 2020
+ \end{itemize}
+
+ ~
+
+ \hypertarget{appointments}{%
+ \section{APPOINTMENTS}\label{appointments}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   Statistical Consultant, Project Haystack, GoDaddy.com \hfill Spring
+   2020 - Summer 2021
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Collaboration with Professor Caroline Tolbert (University of Iowa)
+     and GoDaddy.com to measure the density of domain name websites (at
+     the CBSA, county, and zip code level) using a dataset of 26 million
+     GoDaddy customers in the US.
+   \end{itemize}
+ \item
+   Project Member, Iowa Hawkeye Poll, University of Iowa \hfill Fall
+   2019
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Aided in the creation and analysis of a survey designed to measure
+     Iowan's political preferences in U.S 2020 presidential election.
+   \end{itemize}
+ \item
+   Tweets on Immigration Project, University of Iowa \hfill Summer 2019
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Work with Professor Bryce Dietrich on analyzing how Trump's tweets
+     changed the way Americans talk about immigration on Twitter.
+   \end{itemize}
+ \item
+   Standardized World Income Inequality Database Project,University of
+   Iowa, \hfill Summer 2019
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Assist Professor Frederick Solt with inequality data collection.
+   \end{itemize}
+ \item
+   Comparative Political Trust Project, University of Iowa \hfill Spring
+   2018
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Work with Professor Wenfang Tang to combine global survey datasets
+     and conducted empirical analysis.
+   \end{itemize}
+ \end{itemize}
+
+ ~
+
+ \hypertarget{awards-honors}{%
+ \section{AWARDS \& HONORS}\label{awards-honors}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   Graduate Post-Comp Research Fellowship (\$10,500), University of Iowa
+   \hfill Fall 2021
+ \item
+   Graduate College Summer Fellowship (\$5,000), University of Iowa
+   \hfill Summer 2021
+ \item
+   Department Research Grant (\$1,000), University of Iowa \hfill Spring
+   2020
+ \item
+   GSS Travel Funds (\$1,000), University of Iowa \hfill Spring 2020
+ \item
+   Department Research Grant (\$300), University of Iowa \hfill Spring
+   2019
+ \item
+   Center for Asian and Pacific Studies Graduate Travel Grant (\$500),
+   University of Iowa \hfill Fall 2019
+ \item
+   Department Summer Training Grant (\$2400), University of Iowa
+   \hfill Summer 2018
+ \end{itemize}
+
+ ~
+
+ \hypertarget{discipline-and-campus-service}{%
+ \section{DISCIPLINE AND CAMPUS
+ SERVICE}\label{discipline-and-campus-service}}
+
+ \begin{itemize}
+ \item
+   \textbf{iPeer Mentor}: \emph{iPeer Mentorship Program}. International
+   Student and Scholar Services, University of Iowa \hfill  2021
+ \item
+   \textbf{Co-Host}: \emph{2020 Iowa Caucus Conference}. Department of
+   Political Science, University of Iowa Conference Details:
+   \url{https://clas.uiowa.edu/polisci/Shambaugh-2020Caucus} \hfill  Feb
+   2020
+ \item
+   \textbf{Discussant}: \emph{Government Transparency in China}. Midwest
+   Political Science Association Annual Meeting \hfill  Apr 2021
+ \item
+   \textbf{Session Chair and Discussant} for \emph{Time and Space}.
+   Political Science Methodology Conference for Asia and Australasia
+   \hfill  Jan 2021
+ \item
+   \textbf{Session Chair} for \emph{Understanding Polarization},
+   \emph{Covid \& Computation} and \emph{Social Media \& Politics}.
+   Politics and Computational Social Science and Political Networks
+   \hfill  Aug 2020
+ \item
+   \textbf{Discussant}: \emph{Chinese Politics}. Southern Political
+   Science Association Conference \hfill  Jan 2020
+ \end{itemize}
+
+ ~
+
+ \hypertarget{professional-affiliations}{%
+ \section{PROFESSIONAL AFFILIATIONS}\label{professional-affiliations}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   Member of American Political Science Association
+ \item
+   Member of Midwest Political Science Association
+ \item
+   Member of Association of Chinese Political Science
+ \item
+   Member of Southern Political Science Association
+ \item
+   The Society for Political Methodology
+ \end{itemize}
+
+ ~
+
+ \hypertarget{additional-training-and-skills}{%
+ \section{ADDITIONAL TRAINING AND
+ SKILLS}\label{additional-training-and-skills}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   \textbf{Certificate}
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Certificate in Informatics, The University of Iowa, U.S.A.
+     \hfill 2021
+
+     \begin{itemize}
+     \tightlist
+     \item
+       Programming in Python, Java, and SQL.
+     \end{itemize}
+   \item
+     ICPSR, University of Michigan, Ann Arbor, MI \hfill 2018
+
+     \begin{itemize}
+     \tightlist
+     \item
+       Causal Inference for the Social Sciences \& Multilevel Models II:
+       Advanced Topics.
+     \end{itemize}
+   \end{itemize}
+ \end{itemize}
+
+ ~
+
+ \begin{itemize}
+ \tightlist
+ \item
+   \textbf{Skills}
+
+   \begin{itemize}
+   \tightlist
+   \item
+     Analysis \& Programming: R, Python, Stan, JAGS, Stata, SQL, Mplus,
+     Java.
+   \item
+     Application: \LaTeX, Markdown, Git(GitHub).
+   \item
+     Language: English, Chinese (Mandarin)
+   \end{itemize}
+ \end{itemize}
+
+ ~
+
+ \hypertarget{references}{%
+ \section{REFERENCES}\label{references}}
+
+ \begin{itemize}
+ \tightlist
+ \item
+   \textbf{Frederick Solt}, \textbf{Ph.D}
+   \hfill  \href{mailto:frederick-solt@uiowa.edu}{\nolinkurl{frederick-solt@uiowa.edu}};
+   (319)335-2340
+ \item
+   Associate Professor, University of Iowa
+ \item
+   \textbf{William M. Reisinger}, \textbf{Ph.D}
+   \hfill  \href{mailto:william-reisinger@uiowa.edu}{\nolinkurl{william-reisinger@uiowa.edu}};
+   (319)335-2351
+ \item
+   Professor, University of Iowa
+ \item
+   \textbf{Caroline Tolbert}, \textbf{Ph.D}
+   \hfill  \href{mailto:caroline-tolbert@uiowa.edu}{\nolinkurl{caroline-tolbert@uiowa.edu}};
+   (319)335-2340
+ \item
+   Professor, University of Iowa
+ \item
+   \textbf{Elizabeth Menninga}, \textbf{Ph.D}
+   \hfill  \href{mailto:elizabeth-menninga@uiowa.edu}{\nolinkurl{elizabeth-menninga@uiowa.edu}};(319)335-3835
+ \item
+   Assistant Professor, University of Iowa
+ \end{itemize}
+	
+			\end{document}
