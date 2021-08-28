@@ -35,7 +35,7 @@ urlcolor: blue
    - *Dissertation Title*: Public Trust and Policy Outcomes in Shared-interest Policy and Conflicting-interest Policy
    - *Committee*: Frederick Solt (chair), William Reisinger, Caroline Tolbert, Julie Pacheco, and Elizabeth Suhay (American University)
 *  __Dissertation Abstract__:
-    - In my dissertation, I seek to answer the question, "What influences public compliance with public policy?" More specifically, I ask, "Why do people not comply with a shared-interest policy which benefits both government and public generally, like public health policy? Why do people comply with a conflicting-interest policy in which there is a fundamental tension between the state and the society, like taxation?" I propose taking comparative trust and policy attributes to understand that different types of trust have reinforcing or counterbalancing effects on public compliance, and these effects vary across policy attributes. Drawing from 250 different survey datasets, I employ a sophisticated Bayesian IRT model, to measure four types of trust (trust in representative institution, trust in implementing institution, generalized trust, and particularized trust) and create a comprehensive trust data set covering 151 countries over 47 years, from 1973 to 2020. To identify the causal effects in a panel data context, I use causal graphs and run a dynamic fixed-effects model with system generalized method of moments (GMM) estimator. I find that trust in implementing institutions has the most considerable effect on public compliance with vaccination but then the importance of political trust is at least matched by that of social trust on public compliance with taxation. My dissertation concludes that to break the vicious circle of public distrust and deadlock of policy reform, policymakers and policy implementors should rebuild public trust in preparing for governance challenges like future pandemics, infodemics, and climate change.
+    - In my dissertation, I seek to answer the questions, "Why do people not comply with a shared-interest policy which benefits both government and public generally, like public health policy? Why do people comply with a conflicting-interest policy in which there is a fundamental tension between the state and the society, like taxation?" I propose taking comparative trust and policy attributes to understand that different types of trust have reinforcing or counterbalancing effects on public compliance, and these effects vary across policy attributes. Drawing from 250 different survey datasets, I employ a sophisticated Bayesian IRT model, to measure four types of trust (trust in representative institution, trust in implementing institution, generalized trust, and particularized trust) and create a comprehensive trust data set covering 151 countries over 47 years, from 1973 to 2020. To identify the causal effects in a panel data context, I use causal graphs and run a dynamic fixed-effects model with system generalized method of moments (GMM) estimator. I find that trust in implementing institutions has the most considerable effect on public compliance with vaccination but then the importance of political trust is at least matched by that of social trust on public compliance with taxation. My dissertation concludes that to break the vicious circle of public distrust and deadlock of policy reform, policymakers and policy implementors should rebuild public trust in preparing for governance challenges like future pandemics, infodemics, and climate change.
  
 * __MSc__ in Political Science, Nanyang Technological University, Singapore \hfill 2008
 * __LL.B.__ in Diplomacy, Renmin University of China, China \hfill 2007
@@ -59,16 +59,15 @@ urlcolor: blue
 
 * __Working Paper__
   - “When does Crisis Severity Speed Response? Policy Burden and COVID-19 Policy Adoption in China” (with Jielu Yao and Elise Pizzi)
-  - "Maintaining authoritarian resilience during the public health crisis: An analysis of Chinese state media’s social media posts during the COVID-19 outbreak” (with Ge Zhu, Rachel Young, Li Chen)
-
+  - "Has President Trump Changed the Way Americans Talk about Immigration on Twitter?" (with Bryce J. Dietrich, Nick Beauchamp, Caglar Koylu, and Jielu Yao)
+  - "Who is Leading Public Opinion on Social Media in China"
   - “Policy Orientation and Diffusion in Responsive Governance: Responses to the Chinese 2018 Vaccine Scandal”
   - “Gubernatorial Executive Orders vs Legislation: Determinants of States' Action Choice during COVID19 Pandemic”
-  - "Who is Leading Public Opinion on Social Media in China"
+  - "Maintaining authoritarian resilience during the public health crisis: An analysis of Chinese state media’s social media posts during the COVID-19 outbreak” (with Ge Zhu, Rachel Young, Li Chen)
 
 <p>&nbsp;</p>
 # CONFERENCE PRESENTATIONS 
 * “When does Crisis Severity Speed Response? COVID-19 Policy Adoption in China” (with Jielu Yao and Elise Pizzi), American Political Science Association Conference, forthcoming   \hfill Oct 2021
-* “Trial "Better than Men" :Gender Variation in Presentation Styles in Courts of China” (with Dong Erico Yu), Midwest Political Science Association Annual Meeting     \hfill  Apr 2021
 * “Democracy, Public Support, and Measurement Uncertainty” (with Yue Hu and Frederick Solt), Joint Quantitative Political Science Conference for Asia and Australasia    \hfill  Jan 2021
 * “Policy Orientation and Diffusion in Responsive Governance: Responses to the Chinese 2018 Vaccine Scandal”,  Association of Chinese Political Studies Annual Meeting              \hfill Nov 2020
 * “Who is Influencing Public Opinion during a Public Health Crisis on Social Media in China?”,  Southern Political Science Association Conference       \hfill  Jan 2020
@@ -76,8 +75,15 @@ urlcolor: blue
 <p>&nbsp;</p>
 # TEACHING EXPERIENCE
 *  __Guest Lecturer, University of Iowa__
-- Analyzing Political Data \hfill Spring 2021
-- National Security Policy  \hfill March 2020 
+- Advanced Method (Graduate Level) \hfill Fall 2021
+  - Machine Learning
+- Text Analysis and Machine Learning (Graduate Level)  \hfill Fall 2021
+  - Text Analysis in Comparative Perspective
+- Analyzing Political Data (Undergraduate Level)  \hfill Spring 2021
+  - P-Value
+  - Multiple Regression
+- National Security Policy  (Undergraduate Level) \hfill March 2020 
+  - Cyber Security
 
 *  __Teaching Assistant__
 * *ICPSR Summer Program, University of Michigan* 
@@ -153,7 +159,6 @@ urlcolor: blue
   - ICPSR, University of Michigan, Ann Arbor, MI  \hfill 2018
     - Causal Inference for the Social Sciences & Multilevel Models II: Advanced Topics.
     
-<p>&nbsp;</p>
 * __Skills__
   - Analysis & Programming: R, Python, Stan, JAGS, Stata, SQL, Mplus, Java.
   - Application:  \LaTeX, Markdown, Git(GitHub).
