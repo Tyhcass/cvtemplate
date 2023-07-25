@@ -11,7 +11,7 @@ chinese: TRUE
 title: "CV"
 author: Yuehong Cassandra Tai
 
-address: "Department of Political Science 313 Schaeffer Hall Iowa City, Iowa 52242-1409"
+address: "The Center for Social Data Analytics, Penn State University, 16801"
 fontawesome: yes
 email: yuehong-tai@uiowa.edu
 github: Tyhcass
